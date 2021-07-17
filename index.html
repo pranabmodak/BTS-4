@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css"><!--custom file-->
+    <title>Bootstrap 5</title>
+  </head>
+  
+  <body>
+     <section class="container">
+       <!--accordion-->
+          <div class="accordion accordion-flush" id="aflushex">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="fheadone">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fclone" aria-expanded="false" aria-controls="fclone">
+                Accordion Item #1
+                    </button>
+                </h2>
+
+             <div id="fclone" class="accordion-collapse collapse" aria-labelledby="fheadone" data-bs-parent="#aflushex">
+               <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, aspernatur!.</div>
+               </div>
+             </div>
+
+
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="flheadtwo">
+                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flcltwo" aria-expanded="false" aria-controls="flcltwo">
+          Accordion Item #2
+                 </button>
+               </h2>
+
+              <div id="flcltwo" class="accordion-collapse collapse" aria-labelledby="flheadtwo" data-bs-parent="#aflushex">
+                <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis aliquid eum ullam, distinctio, doloribus beatae nihil pariatur quo suscipit vitae?</div>
+              </div>
+            </div>
+
+          </div>
+       <!--accordion-->
+       <div class="row">
+         <div class="col-sm-8 alert alert-primary alert-dismissible fade show" role="alert">
+            You can know more about us here by clicking more. <a href="#" class="alert-link">More</a>
+           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+         </div>
+       
+
+       <div class="col-sm-4">
+         <button type="button" class="btn btn-warning btn-lg position-relative badg p-3">More</button>
+         <span class="position-absoute top-0 end-100 translate-middle badge rounded-pill bg-success">Pranab
+          <span class="visually-hidden">unread messages</span></span>
+       </div>
+
+       <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+          </ol>
+       </nav>
+
+       <nav aria-label="breadcrumb">
+         <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Library</li>
+         </ol>
+       </nav>
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Library</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Photos</li>
+          </ol>
+        </nav>
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Library</a></li>
+            <li class="breadcrumb-item"><a href="#">Photos</a></li>
+            <li class="breadcrumb-item active" aria-current="page">My images</li>
+          </ol>
+        </nav>
+       <div class="row">
+        <div class="d-grid col-md-12 gap-2">
+          <button class="btn btn-secondary" type="button">First</button>
+          <button class="btn btn-outline-info text-dark" type="button">Second</button>
+        </div>
+      
+     
+        <div class="mt-2 d-grid gap-2 col-md-6 mx-auto">
+           <button class="btn btn-warning" type="button">Third</button>
+           <button class="btn btn-warning" type="button">Fourth</button>
+        </div>
+       </div>
+      
+      <div class="row">
+        <div class="col-md d-grid d-md-flex mt-2 gap-2 justify-content-end"> 
+           <button class="btn btn-warning" type="button">Third</button>
+           <button class="btn btn-warning" type="button">Fourth</button>
+        </div>  
+      </div>  
+      
+      <div class="row">
+        <div class="card col-md-6 mx-auto">
+         <img src="images/s_image4.png" class="card-img-top" alt="minimo">
+         <div class="card-body">
+           <h5 class="card-title">Lorem ipsum.</h5>
+           <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, possimus.</p>
+        </div>
+         <ul class="list-group list-group-flush">
+            <li class="list-group-item">Lorem ipsum, dolor sit amet.</li>
+            <li class="list-group-item">Lorem ipsum dolor sit, amet.</li>
+            <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Lorem</a>
+            <a href="#" class="card-link">Forem</a>
+          </div> 
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Title</h2>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aspernatur debitis, at repellendus? Fugiat qui accusantium dolorum saepe excepturi non aspernatur. </p>
+              <a href="#" class="card-link btn btn-primary">Link-1</a>
+            </div>
+          </div>
+       </div>
+         <div class="col-md-6">
+           <div class="card">
+             <div class="card-body">
+               <h2 class="card-title">Title</h2>
+               <p class="card-text">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Aperiam saepe nostrum, reiciendis, amet eaque maiores dolore cum animi ipsum ipsam inventore eum vel quo quos rerum et laudantium nihil exercitationem.</p>
+               <a href="#" class="card-link btn btn-primary">Link-2</a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+
+       <div class="card text-center mt-2">
+           <div class="card-header">
+             <ul class="nav nav-tabs card-header-tabs">
+               <li class="nav-item">
+                 <a href="#" class="nav-link active" aria-current="true">Link Active</a>
+               </li>
+               <li class="nav-item">
+                 <a href="#" class="nav-link">Link-2</a>
+               </li>
+               <li class="nav-item">
+                 <a href="#" class="nav-link" tabindex="-1" aria-disabled="true">Link-3</a>
+               </li>
+                <li class="nav-item">
+                 <a href="#" class="nav-link disabled" tabindex="-1" aria-disabled="true">Disabled</a>
+               </li>
+             </ul>
+           </div>
+
+           <div class="card-body">
+             <h3 class="card-title">A Title</h3>
+             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente facilis harum beatae.</p>
+             <a href="#" class="btn btn-secondary">More about us</a>
+           </div>
+         </div>
+
+         <div class="card mb-2 mt-2 navi">
+             <div class="row g-0">
+               <div class="col-md-4">
+                 <img src="images/s_image4.png" class="img-fluid rounded-start" alt="minimo">
+               </div>
+               <div class="col-md-8">
+                 <div class="card-body">
+                   <h5 class="card-title">Another title</h5>
+                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sint et asperiores.</p>
+                   <p class="card-text"><small class="text-muted">Last updated 24 hours ago</small></p>
+                 </div>
+               </div>
+             </div>
+           </div>
+
+           <p class="mt-2 text-center">
+              <a class="btn btn-secondary" data-bs-toggle="collapse" href="#mlclex1" role="button" aria-expanded="false" aria-controls="mlclex1">Toggle first element</a>
+              <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#mlclex2" aria-expanded="false" aria-controls="mlclex2">Toggle second element</button>
+              <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="mlclex1 mlclex2">Toggle both elements</button>
+          </p>
+
+           <div class="row">
+             <div class="col">
+               <div class="collapse multi-collapse" id="mlclex1">
+                 <div class="card card-body">
+                   Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Nobis numquam vel, magnam pariatur ab nulla impedit qui nisi quia molestiae.
+                 </div>
+               </div>
+             </div>
+             <div class="col">
+               <div class="collapse multi-collapse" id="mlclex2">
+                 <div class="card card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequatur suscipit nisi? Amet omnis, voluptas ipsam doloribus quam, quia nulla commodi, nesciunt molestiae ab, consequatur?
+                 </div>
+               </div>
+             </div>
+           </div>
+
+
+           <!-- Default dropup button -->
+           <div class="row m-3">
+            <div class="col-md-6 btn-group dropup">
+             <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropup
+             </button>
+             <ul class="dropdown-menu">
+                <a href="#" class="dropdown-item">Link-1</a>
+                <a href="#" class="dropdown-item">Link-2</a>
+                <a href="#" class="dropdown-item">Link-3</a>
+             </ul>
+             </div>
+           
+
+           <div class="col-md-6 btn-group dropend">
+             <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropend
+             </button>
+             <ul class="dropdown-menu">
+                <a href="#" class="dropdown-item">Link-1</a>
+                <a href="#" class="dropdown-item">Link-2</a>
+                <a href="#" class="dropdown-item">Link-3</a>
+             </ul>
+             </div>
+            </div> 
+
+            <div class="row mb-3">
+              <div class="col-md-6 btn-group dropstart">
+                   <button class="btn btn-success dropdown-toggle" type="button" id="dfdrdwn" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                    Default dropdown menu
+                   </button>
+                  <ul class="dropdown-menu" aria-labelledby="dfdrdwn">
+                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                  </ul>
+              </div>
+                
+              <div class="col-md-6 btn-group">
+                <button class="btn btn-warning dropdown-toggle" type="button" id="drdwnmclout" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                  Clickable outside Menu
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="drdwnmclout">
+                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                </ul>
+               </div>
+              </div>
+
+             <div class="row text-center">
+              <ul class="list-group col-md-6 mx-auto">
+                   <li class="list-group-item">
+                       <input class="form-check-input me-1" type="checkbox" value="">First checkbox
+                   </li>
+                   <li class="list-group-item">
+                     <input class="form-check-input me-1" type="checkbox" value="">Second checkbox
+                   </li>
+                   <li class="list-group-item">
+                     <input class="form-check-input me-1" type="checkbox" value="">Third checkbox
+                   </li>
+                   <li class="list-group-item">
+                     <input class="form-check-input me-1" type="checkbox" value="">Fourth checkbox
+                   </li>
+                   <li class="list-group-item">
+                     <input class="form-check-input me-1" type="checkbox" value="">Fifth checkbox
+                   </li>
+              </ul>
+             </div> 
+    </section>
+  
+     
+  
+
+    <!--JS links-->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script><!--custom file-->
+    
+  </body>
+</html>
+  
